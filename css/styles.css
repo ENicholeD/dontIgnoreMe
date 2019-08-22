@@ -4,27 +4,24 @@ body {
   background-attachment: fixed;
   text-align: center;
   color: #EE6AB3;
+  font-family: "Comic Sans MS";
 }
 h1 {
   font-size: 75px;
-  font-family: "Comic Sans MS";
   color: #F094C7;
 }
 button {
   background-color: #F094C7;
   color: white;
-  font-family: "Comic Sans MS";
 }
 #dontIgnore {
-  color: red;
-  font-family: cursive;
-  margin: auto;
+  display: block;
+  color: skyblue;
+  font-size: 30px;
+  display: block;
+  margin-left:  auto;
+  margin-right: auto;
 }
-.badBear {
+.sadBear, .try {
   display: none;
-}
-.oopsy {
-  display: none;
-  position: absolute;
-  width: 100%;
 }

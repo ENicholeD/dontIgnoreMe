@@ -18,18 +18,19 @@ $(document).ready(function(){
 
     function lies(dont,userI){
       for (i = 0; i <= userI; i++){
-        if (dont[i].includes("5")){
+        if (dont[i].includes("3")){
           dont[i] = "Hi!";
-        } else if (dont[i].includes("7")){
+        } else if (dont[i].includes("5")){
           dont[i] = "Hello?!";
-        } else if (dont[i].includes("9")){
+        } else if (dont[i].includes("6")){
           dont[i] = "Don't ingore me!!!";
         }
       }
       return dont;
     }
     $(".goodBear").hide();
-    $(".badBear").show();
+    $(".sadBear").show();
     $(".oopsy").show();
+    $(".try").show();
   });
 });
