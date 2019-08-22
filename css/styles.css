@@ -1,0 +1,30 @@
+body {
+  background-image: url("../img/polka.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: #EE6AB3;
+}
+h1 {
+  font-size: 75px;
+  font-family: "Comic Sans MS";
+  color: #F094C7;
+}
+button {
+  background-color: #F094C7;
+  color: white;
+  font-family: "Comic Sans MS";
+}
+#dontIgnore {
+  color: red;
+  font-family: cursive;
+  margin: auto;
+}
+.badBear {
+  display: none;
+}
+.oopsy {
+  display: none;
+  position: absolute;
+  width: 100%;
+}

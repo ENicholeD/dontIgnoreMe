@@ -28,5 +28,8 @@ $(document).ready(function(){
       }
       return dont;
     }
+    $(".goodBear").hide();
+    $(".badBear").show();
+    $(".oopsy").show();
   });
 });
