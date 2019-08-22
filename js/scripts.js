@@ -3,7 +3,7 @@ $(document).ready(function(){
     event.preventDefault();
 
     // gather use Input
-    var userI = $("userInput").val();
+    var userI = $(".userInput").val();
 
     var dont = [];
     // convert the contents of i to a string
